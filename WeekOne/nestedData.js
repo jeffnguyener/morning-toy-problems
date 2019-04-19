@@ -37,17 +37,18 @@ let favoriteChild = composer.children[3];
   // Create another variable called 'mouthsToFeed' and set its value to be
   // the length of the children array.
   
-let mouthsToFeed = composer[children.length()];
+let mouthsToFeed = composer.children.length;
 
 
   // Console log the compositions array. What is going to happen?
   
-  // CODE HERE
+// console.log(mouthsToFeed);
   
   // Create a variable called 'fruitless'. The value of this variable should
   // be the length of the compositions array.
   
   // CODE HERE
+  var fruitless = composer.compositions.length;
   
   // Invoke the 'compose' function on our composer object. The function has
   // a parameter of 'piece'. Give the compose function an argument of
@@ -57,7 +58,9 @@ let mouthsToFeed = composer[children.length()];
   // called 'prolific'.
   
   // CODE HERE
-  
+  var prolific = composer.compose('Twinkle Twinkle Little Star');
+
+
   /* Don't change below this line */
   const composers = [
     {
